@@ -1,6 +1,5 @@
 # Inditex Prices API
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Descripción
 
@@ -63,5 +62,5 @@ Una vez que la aplicación esté en funcionamiento, puedes utilizar los endpoint
     - **Ejemplo de solicitud:**
 
       ```bash
-      curl -X GET "http://localhost:8080/api/prices?productId=35455&brandId=1&applicationDate=2020-06-14-10.00.00"
+      curl --location 'localhost:8080/api/v1/product?date=2020-06-14-00.00.00&productIdentifier=35455&brand=ZARA'
       ```
